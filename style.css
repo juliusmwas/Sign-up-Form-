@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    padding: 1em;
+    display: flex;
+    width: 100%;
+}
+.leftbar{
+    background-image: url(img/halie-west.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 60%;
+}
+.leftbar p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 5em;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+.mainbar{
+    padding: 1em;
+    background-color: wheat;
+}
+.mainbar p{
+    font-size: 1.6em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    max-width: 100%;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: row;
+    border: 1px solid white;
+}
+h3{
+    padding: 1em 0 1em 0.3em;
+}
+.form-container{
+    display: flex;
+    padding: 1em;
+    gap: 10px;
+}
+.input-group{
+    display: block;
+    align-items: flex-start;
+    padding: 0.5em;
+}
+.input-group label{
+    align-items: flex-start;
+    display: block;
+}
+.input-group input{
+    padding: 0.6em;
+    width: 300px;
+    border-radius: 10px;
+}
+button{
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(1, 158, 1);
+    color: white;
+    font-size: 1em;
+}
